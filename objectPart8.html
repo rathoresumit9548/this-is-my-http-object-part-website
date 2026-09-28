@@ -1,0 +1,19 @@
+!DOCTYPE <html>
+<html lang="en">
+    <head>
+        <title>from a function</title>
+    </head>
+    <h1>Returning an object from a function</h1>
+    <body>
+        <script>
+            function createStudent(name, age){
+                return{
+                    name: name,
+                    age: age
+                };
+            }
+            let student = createStudent("Aman", 21);
+            console.log(student);
+        </script>
+    </body>
+</html>
